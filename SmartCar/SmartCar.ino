@@ -10,7 +10,7 @@ BrushedMotor rightMotor(12, 13, 11);
 DifferentialControl control(leftMotor, rightMotor);
 
 GY50 gyroscope(37);
-DirectionlessOdometer leftOdometer(100);
+DirectionlessOdometer leftOdometer(101);
 DirectionlessOdometer rightOdometer(100);
 
 SmartCar car(control, gyroscope, leftOdometer, rightOdometer);
